@@ -1,3 +1,7 @@
+# Workflow for evaluating a generative model
+
+<img width="607" height="534" alt="Screenshot 2025-08-15 at 12 57 05 p m" src="https://github.com/user-attachments/assets/eea3c06a-2dbc-4840-ab60-fc6b140d2b03" />
+
 # Vertex AI Gen AI Evaluation
 
 This notebook demonstrates how to use the Vertex AI Gen AI Evaluation SDK to evaluate the performance of large language models (LLMs).
@@ -32,6 +36,10 @@ It then introduces and demonstrates the use of several **non-LLM based metrics**
 - **AspectCritic**: This metric allows for evaluating responses based on predefined aspects described in natural language. The output is binary, indicating whether the response aligns with the defined aspect. Examples shown include evaluating "summary accuracy," "verbosity," and "maliciousness."
 
 Overall, this notebook provides a practical introduction to using the Ragas library for evaluating LLM applications, covering both traditional and LLM-powered evaluation approaches.
+
+## References
+* [Vertex GenAI](https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview)
+* [Ragas](https://docs.ragas.io/en/stable/)
 
 ## Author
 
